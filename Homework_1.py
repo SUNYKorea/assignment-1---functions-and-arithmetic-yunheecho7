@@ -1,5 +1,5 @@
-# Name:
-# SBUID: 
+# Name: Yunhee Cho 
+# SBUID: 115935503
 
 # Remove the ellipses (...) when writing your solutions.
 
