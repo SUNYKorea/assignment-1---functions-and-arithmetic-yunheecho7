@@ -29,9 +29,9 @@ def what_to_wear(celsius):
 
 fahrenheit = float(input("Enter the temperature in fahrenheit: "))
 celsius = fahrenheit2celsius(fahrenheit)
-print("The temperature in celsius is: ", str(celsius))
 clothing = what_to_wear(celsius)
-print(clothing)
+print("The temperature in celsius is: ", str(celsius))
+print("You need to wear a: ", clothing)
 
 #This function is fruitful because it returns a value, which is the type of clothing in this case.
 
