@@ -8,27 +8,26 @@
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
 def fahrenheit2celsius (fahrenheit): #user input function
-    celsius = (5 / 9) * (fahrenheit - 32) #The formula used in converting from fahrenheit to celsius
+    celsius = (fahrenheit - 32) * (5 / 9) #The formula used in converting from fahrenheit to celsius
     return celsius
 
 
 def what_to_wear(celsius):
 
     if celsius < -10:
-        return "Wear a puffy jacket"
+        return "Puffy jacket"
     elif -10 <= celsius <= 0:
-        return "Wear a scarf"
+        return "Scarf"
     elif 0 <= celsius <= 10:
-        return "Wear a sweater"
+        return "Sweater"
     elif 10 <= celsius <= 20:
-        return "Wear a light Jacket"
-    else: #This means a temperatue greater than 20 degrees celsius will tell the user to wear a t-shirt
-        return "Wear a T-shirt"
+        return "Light Jacket"
+    elif celsius > 20:
+        return "T-shirt"
     
 #Calling functions fahrenheit2celsius and what_to_wear (this is where I got stuck the most for this exercise because I didn't know how to call them)
 
 fahrenheit = float(input("Enter the temperature in fahrenheit: "))
-fahrenheit = 32
 celsius = fahrenheit2celsius(fahrenheit)
 print("The temperature in celsius is: ", str(celsius))
 clothing = what_to_wear(celsius)
