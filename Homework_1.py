@@ -46,7 +46,7 @@ print("You need to wear a: ", clothing) #prints out the clothing the user needs 
 
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     A = abs((x1 * y2 + x2 * y3 + x3 * y1) - (x1 * y3 + x2 * y1 + x3 * y2)) / 2 #Formula for solving area of a triangle
-    return A
+    return int(A)
 
 
 def euclidean_distance(x1, y1, x2, y2):
@@ -56,7 +56,7 @@ def euclidean_distance(x1, y1, x2, y2):
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
     P = s1 + s2 + s3 #The formula for the perimeter of a triangle
-    return P
+    return int(P)
 
 x1 = int(input("x1: "))
 x2 = int(input("x2: "))
