@@ -1,8 +1,29 @@
 # Name: Yunhee Cho 
 # SBUID: 115935503
 
-# Remove the ellipses (...) when writing your solutions.
+##################### SCORE ######################
+####### Score:  6/10
+#################################################
 
+# Remove the ellipses (...) when writing your solutions.
+# your output:
+# (base) D:\CSE 101 Ass1\Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27>D:/anaconda/python.exe "d:/CSE 101 Ass1/Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27/yunheecho7/Homework_1.py"
+# Enter the temperature in fahrenheit: 44
+# The temperature in celsius is:  6.666666666666667
+# You need to wear a:  Sweater--> correct
+# x1: -4
+# x2: -4
+# x3: -5
+# y1: 5
+# y2: 3
+# y3: -3
+# The perimeter of a triangle is:  16 --> wrong
+# The area of a triangle is:  1
+# Enter the side: 5
+# Enter the length side 4
+# The area of the regular polygon is:  27.527638409423474 --> correct
+# The area of the triangle is : 32 , its perimeter is : 16--> wrong
+# The area of the polygon is : 32--> wrong
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
@@ -55,7 +76,7 @@ def euclidean_distance(x1, y1, x2, y2):
     
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    P = s1 + s2 + s3 #The formula for the perimeter of a triangle
+    P = s1 + s2 + s3 #The formula for the perimeter of a triangle ## from where do you get s????
     return int(P)
 
 x1 = int(input("x1: "))
